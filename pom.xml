@@ -13,7 +13,6 @@
     </properties>
 
     <dependencies>
-        <!-- Apache POI для работы с Excel -->
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>poi</artifactId>
@@ -28,7 +27,6 @@
 
     <build>
         <plugins>
-            <!-- Плагин для компиляции с указанием версии Java -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
